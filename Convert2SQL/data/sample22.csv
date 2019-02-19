@@ -1,0 +1,6 @@
+firstName,lastName,email,phoneNumber,floatVal,someDate
+John1,Doe1,john1@doe.com,01234567,12332,02/22/2019
+John2,Doe2,john2@doe.com,0.126789,12.332,02/22/2019
+John3,Doe3,john3@doe.com,0123489,12.332,02/22/2019
+John4,Doe4,john4@doe.com,01234789,12.332,02/22/2019
+John5,Doe5,john5@doe.com,03456789,12.332,02/22/2019

@@ -27,7 +27,6 @@ import java.util.Properties;
 
 /* Convert2SQL - creates a Table in Snowflake from provided file.
  * Support in v0.1: CSV,TSV,PipeSV
- * Execute :: Provide two parameters, 
  *  
  *  1. path to file 
  * *   - Linux/MacOS:

@@ -1,5 +1,5 @@
 # mygit
-This is just a simple project to show that it is possible to create your own CSV ‘importer’. It may not cover ALL (100%) scenarios in CSV for now./n
+This is just a simple project to show that it is possible to create your own CSV ‘importer’. It may not cover ALL (100%) scenarios in CSV for now.
 I decided that for demonstration purpose I can process the following types: INTEGER, FLOAT, BOOLEAN, DATE, VARCHAR. In a configuration file, you may specify how many rows you’d like to process to evaluate data types. Another challenge took some time to resolve - DATE type. I tried different formats for date and successfully identified them as a DATE. The issue was in inserting it to the table. The user is providing the list of Data Formats in the config file to compare and on a success identification that Data Format will be passed to a Snowflake File Format options (as on the second execute statement…next). Simple logic to evaluate, if the data value is not INTEGER, not FLOAT, not BOOLEAN, not DATE let it be VARCHAR. Here is a lot of room for improvement to add more precise data type.
 These specifications for my project: point to CSV file, read the Header, create a destination SQL table schema in Snowflake DB and populate the table.
 For demonstration purpose I can process the following types: INTEGER, FLOAT, BOOLEAN, DATE, VARCHAR. 

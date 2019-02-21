@@ -176,7 +176,6 @@ public class Main
 		try {
 			output = new FileOutputStream("config11.properties");
 
-			prop.setProperty("userSF", "IKarbov"); //Snowflake Username
 			  prop.setProperty("verbose", "false"); // Set 'true' for testing
 			  prop.setProperty("columnDefName", "Column_"); //Column name if no Header
 			  prop.setProperty("csvDelimiters", ",#|#\t");// CSV delimiters, Comma = default
